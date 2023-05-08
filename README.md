@@ -268,7 +268,7 @@ bash run.sh
 
 If you want to test our best models, download & unzip the checkpoint files from the following links.
 
-| Task |   dataset    |                                                                    small                                                                     |                                                                     base                                                                     |
+| Task |   Dataset    |                                                                Model (small)                                                                 |                                                                 Model (base)                                                                 |
 |:----:|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | DST  | MultiWOZ 2.1 |                                                                                                                                              | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/ErXS7ETjOBROkmGSv24SNakBVSHC5IWOylZt-mMr3rNR1A?e=c8TcNZ) |
 |      | MultiWOZ 2.2 |                                                                                                                                              |                                                                                                                                              |
@@ -276,7 +276,8 @@ If you want to test our best models, download & unzip the checkpoint files from 
 |      | MultiWOZ 2.2 |                                                                                                                                              |                                                                                                                                              |
 | NLU  |  banking77   | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/EpVHo_TELeJEn6ifNQLguNIBHEodcDs02v3tO-A_I6H5-A?e=2aryLT) | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/Equ6Ayt0vHtCsiYflCzyOl8BkQocXb4vY0m5T1ePRUPnGw?e=B19Gs7) |
 |      |   clinc150   | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/EtcFvjBiTqNFgH3fxtcYU3UBLApPPwM5qhg74xz_F68IEQ?e=yseELd) | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/EgjbVlfBjLlNlWiJ7xvK1fEB-UKqPJsCJBO4mlKrW1whRg?e=snGIvQ) |
-|      |     hwu64    | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/ErbWXhoGlTJNuUWXmLgRKy0B87obgT3-GQetzkVhvb2iDg?e=CbXlDh) | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/EsWc9Bs64WpDgU_em8_lSccBu5O4VHDXGnPjqfSWXUJLXw?e=Khyg5d) |
+|      |    hwu64     | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/ErbWXhoGlTJNuUWXmLgRKy0B87obgT3-GQetzkVhvb2iDg?e=CbXlDh) | [Link](https://sogang365-my.sharepoint.com/:f:/g/personal/jhlee22_o365_sogang_ac_kr/EsWc9Bs64WpDgU_em8_lSccBu5O4VHDXGnPjqfSWXUJLXw?e=Khyg5d) |
+
 
 ### Reference
 
