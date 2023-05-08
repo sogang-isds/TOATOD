@@ -1,0 +1,14 @@
+absl-py
+pytest
+sacrebleu==1.4.10
+six
+wheel
+progressbar
+sklearn
+transformers==4.7.0
+torch==1.11.0+cu113 -i https://download.pytorch.org/whl/cu113
+pyyaml
+nltk
+sentencepiece
+spacy
+gdown

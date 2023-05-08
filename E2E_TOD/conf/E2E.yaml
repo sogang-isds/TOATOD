@@ -1,0 +1,38 @@
+# dataset configuration
+data_path_prefix: "/home/jhlee/adapterA100/TOATOD/data/multiwoz21/"
+shuffle_mode: "unshuffle"   # shuffle_session_level / shuffle_turn_level, it controls how we shuffle the training data
+use_db_as_input: True    # whether includes db result as part of the input when generating response
+add_special_decoder_token: True   # whether we discriminate the decoder start and end token for different tasks
+train_data_ratio: 0.01   # the ratio of training data used for training the model
+
+# model configuration
+model_name: "t5-small"  # t5-small / t5-base / t5-large
+pretrained_path: "checkpoints/small"    # the path that stores pretrained checkpoint
+
+# training configuration
+multi_gpu_training: False  # whether we use multi-gpu training
+n_gpu: 1            # the number of gpus used for training
+epoch_num: 1        # number of epochs
+batch_size: 8       # batch size
+lr: 1e-3            # learning rate
+weight_decay: 0.0   # weight decay if we apply some
+max_grad_norm: 1.0  # max gradient norm.
+warmup_steps: 0     # linear warmup over warmup_steps
+gradient_accumulation_steps: 1  # gradient accumulation step
+dropout: 0.1
+ckpt_save_path: "./model_save/seed42_multiwoz21"    # directory to save the model parameters
+seed: 42        # random seed for initialization
+
+# whether to train the module
+dst: False        # whether to train the dst module
+policy: False    # whether to train the policy module
+nlg: True       # whether to train the nlg module
+
+e2e: False       # whether to train the e2e module (If True, the dst, policy, nlg will be ignored)
+dst_save_path:
+policy_save_path:
+nlg_save_path:
+
+# wandb logger
+project: adapter
+name: t5-small data_ratio 0.01 mw21 lr 1e-3
