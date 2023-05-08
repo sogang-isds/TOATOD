@@ -76,3 +76,19 @@ bash run.sh
 ### Reference
 
 We heavily referenced the code from [PPTOD](https://github.com/awslabs/pptod) and would like to express our gratitude to the Amazon crew.
+```
+@article{su2021multitask,
+   author = {Yixuan Su and
+             Lei Shu and
+             Elman Mansimov and
+             Arshit Gupta and
+             Deng Cai and
+             Yi{-}An Lai and
+             Yi Zhang},
+   title     = {Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
+   booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)",
+   publisher = "Association for Computational Linguistics",
+   year      = {2022},
+   url       = {https://arxiv.org/abs/2109.14739}
+}
+```
