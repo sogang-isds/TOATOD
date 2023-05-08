@@ -56,9 +56,7 @@ def normalize_slot_name(slot_name):
     }
     reverse_slot_name_mapping = {s : k for k, v in slot_name_mapping.items() for s in v}
     if slot_name not in reverse_slot_name_mapping:
-        # print(f"Unknown slot name: {slot_name}. Please use another slot names or customize the slot mapping!")
-        # with open('/home/isds1/adapter/TOATOD/E2E_TOD/unknown.txt', 'a') as f:
-        #     f.write(slot_name + '\n')
+
         return ''
     return reverse_slot_name_mapping[slot_name]
 
