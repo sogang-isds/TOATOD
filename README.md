@@ -1,5 +1,7 @@
 # Task-Optimized Adatper for an End-to-End Task Oriented Dialog
 
+This repository contains the code for the paper [Task-Optimized Adapter for an End-to-End Task Oriented Dialog](https://arxiv.org/abs/2305.02468) (Findings of ACL 2023).
+
 ## Prerequisite
 
 ### Install Requirements
