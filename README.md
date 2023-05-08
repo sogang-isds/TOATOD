@@ -75,4 +75,4 @@ bash run.sh
 
 ### Reference
 
-We heavily referenced the code from (PPTOD)[https://github.com/awslabs/pptod] and would like to express our gratitude to the Amazon crew.
+We heavily referenced the code from [PPTOD](https://github.com/awslabs/pptod) and would like to express our gratitude to the Amazon crew.
