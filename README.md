@@ -266,7 +266,7 @@ bash run.sh
 
 ## TOATOD Checkpoints
 
-If you want to test our best models, download & unzip the checkpoint files from the following links.
+If you want to test our best models, download the checkpoint files from the following links.
 
 | Task |   Dataset    |                                                                Model (small)                                                                 |                                                                 Model (base)                                                                 |
 |:----:|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
