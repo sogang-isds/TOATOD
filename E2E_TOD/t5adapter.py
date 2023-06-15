@@ -21,7 +21,7 @@ class AdapterLayer(nn.Module):
 
     def forward(self, inputs):
         x = self.dropout(inputs)
-        x = self.down(inputs)
+        x = self.down(x)
         x = self.relu(x)
         x = self.up(x)
         x += inputs
