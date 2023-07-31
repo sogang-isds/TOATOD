@@ -38,7 +38,7 @@ cd ../clinc150
 bash clinc150_preparation.sh
 
 cd ../hwu64
-bash ../hwu64_preparation.sh
+bash hwu64_preparation.sh
 ```
 
 ### Download Pre-trained Weights
